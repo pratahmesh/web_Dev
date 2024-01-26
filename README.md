@@ -2,24 +2,26 @@
 
 ## Project Structure
 
+```plaintext
 todo-app/
 │
 ├── backend/
-│ ├── index.js
-│ ├── DB.js
-│ └── types.js
+│   ├── index.js
+│   ├── DB.js
+│   └── types.js
 │
 ├── frontend/
-│ ├── components/
-│ │ ├── CreateTodo.jsx
-│ │ └── Todos.jsx
-│ ├── App.css
-│ ├── App.jsx
-│ ├── index.css
-│ └── main.jsx
+│   ├── components/
+│   │   ├── CreateTodo.jsx
+│   │   └── Todos.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
 │
 ├── package-lock.json
 └── package.json
+```
 
 ## MERN Stack Todo App
 

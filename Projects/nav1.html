@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    .h11{color: red;}
+    .h12{color: green;}
+    .h13{color: blue;}
+    html {scroll-behavior: smooth;}
+    [data-item] {scroll-margin-top: 56px; /* Adjust this value based on your navbar height */}
+    .navbar.fixed-top {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    /* Add styles for offcanvas */
+    @media screen and (max-width: 992px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .navbar-nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .navbar-toggler {
+        display: block;
+      }
+
+      .navbar-toggler.active + .navbar-nav {
+        display: flex;
+      }
+    }
+  </style>
+</head>
+<body class="container" >
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <button class="navbar-toggler" onclick="toggleNavbar()">
+      <span>&#9776;</span>
+    </button>
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home-41092451">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#about-410683747">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#skills-89784572">Skills</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- home -->
+<div class="home" id="home-41092451">
+  <div class="container" data-item="41092451">
+    <h1 class="h11">Home Page</h1>
+    <h1 class="h11">Home Page</h1>
+    <h1 class="h11">Home Page</h1>
+    <h1 class="h11">Home Page</h1>
+    <h1 class="h11">Home Page</h1>
+    <h1 class="h11">Home Page</h1>
+    <h1 class="h11">Home Page</h1>
+    <h1 class="h11">Home Page</h1>
+    <h1 class="h11">Home Page</h1>
+    <h1 class="h11">Home Page</h1>
+    <h1 class="h11">Home Page</h1>
+    <h1 class="h11">Home Page</h1>
+    <h1 class="h11">Home Page</h1>
+    <h1 class="h11">Home Page</h1>
+  </div>
+</div>
+
+<!-- about -->
+<div class="about" id="about-410683747">
+  <div class="container" data-item="410683747">
+    <h1 class="h12">About Page</h1>
+    <h1 class="h12">About Page</h1>
+    <h1 class="h12">About Page</h1>
+    <h1 class="h12">About Page</h1>
+    <h1 class="h12">About Page</h1>
+    <h1 class="h12">About Page</h1>
+    <h1 class="h12">About Page</h1>
+    <h1 class="h12">About Page</h1>
+    <h1 class="h12">About Page</h1>
+    <h1 class="h12">About Page</h1>
+    <h1 class="h12">About Page</h1>
+    <h1 class="h12">About Page</h1>
+  </div>
+</div>
+
+<!-- skills -->
+<div class="skills" id="skills-89784572">
+  <div class="container" data-item="89784572">
+    <h1 class="h13">Skills</h1>
+    <h1 class="h13">Skills</h1>
+    <h1 class="h13">Skills</h1>
+    <h1 class="h13">Skills</h1>
+    <h1 class="h13">Skills</h1>
+    <h1 class="h13">Skills</h1>
+    <h1 class="h13">Skills</h1>
+    <h1 class="h13">Skills</h1>
+    <h1 class="h13">Skills</h1>
+    <h1 class="h13">Skills</h1>
+    <h1 class="h13">Skills</h1>
+    <h1 class="h13">Skills</h1>
+    <h1 class="h13">Skills</h1>
+    <h1 class="h13">Skills</h1>
+  </div>
+</div>
+
+<script>
+  function toggleNavbar() {
+    var navbarNav = document.querySelector('.navbar-nav');
+    navbarNav.classList.toggle('active');
+  }
+</script>
+
+</body>
+</html>

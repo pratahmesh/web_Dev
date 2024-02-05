@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<style>
+body{
+    background-color: rgb(8 13 27);
+    /* background-color: rgb(39, 37, 71); */
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#import{
+    width: 20%;
+}
+.aside{
+    margin-left: 40px;
+    background-color: midnightblue;
+    color: white;
+}
+.lorem{
+    margin-left:10px
+}
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">Hidden brand</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+    <div id="main">
+        <div class="import">
+        <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.38/build/spline-viewer.js"></script>
+        <spline-viewer url="https://prod.spline.design/3AJ38tsdbSygQBif/scene.splinecode"></spline-viewer>
+        </div>
+        <div class="aside">
+            <h1 class="lorem">Testing Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quis perspiciatis? Excepturi ratione harum enim soluta id vero aut quaerat quae natus eius nobis fuga aperiam illo sit mollitia non hic ut debitis ipsam ducimus dolore ipsum, praesentium nesciunt! Ratione eum error tempora illum alias repellat ipsum hic voluptatum non?</h1>
+            <p>Testing</p>
+        </div>
+    </div>
+</body>
+</html>

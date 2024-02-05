@@ -207,5 +207,14 @@ p {
     <h2>Skills Page</h2>
     <p>This is the skills page content.</p>
   </div>
+
+    <script>
+  // Check if there's no target in the URL, then default to #home
+  if (!window.location.hash) {
+    window.location.hash = '#home';
+  }
+</script>
+
+    
 </body>
 </html>

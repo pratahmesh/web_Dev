@@ -1,3 +1,3 @@
 # Install all the dependencies for the website
 ```bash
-npm install cors zod mongoose jsonwebtoken
+npm install express cors zod mongoose jsonwebtoken

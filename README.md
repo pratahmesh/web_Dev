@@ -1,4 +1,35 @@
-# Todo App
+# This repository contains three main sections:
+
+# Paytm Section:
+   - Implementation of Paytm's transaction interface and related functionalities.
+   - Examples for integrating Paytm's payment gateway into web applications.
+   - Utilizes the MERN (MongoDB, Express.js, React.js, Node.js) stack for seamless integration.
+   - Comprehensive documentation and code samples provided for easy understanding and implementation.
+   - Offers solutions for secure and efficient online payment processing within web projects.
+
+## Project Structure
+```plaintext
+Web_Dev/
+│
+├── paytm/
+│   ├── routes/
+│   │   ├── account.js
+│   │   ├── index.js
+│   │   └── user.js
+│   ├── config.js
+│   ├── db.js
+│   ├── index.js
+│   ├── middleware.js
+│   ├── package.json
+│   └── README.md
+│
+```
+# Project Section:
+  - In the project section, you'll find various useful projects developed by me.
+  - offering practical solutions and insights for web development tasks.
+
+
+# Todo App Section
 
 ## Project Structure
 
